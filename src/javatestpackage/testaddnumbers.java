@@ -8,7 +8,9 @@ public class testaddnumbers {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		javatestunitclass Junit = new javatestunitclass ();
+		int result = Junit.addnumbers (100, 200) ;
+		assertEquals (300, result);
+		}
 	}
 
-}
